@@ -1,0 +1,30 @@
+.app-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details-card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-width: 900px;
+  border-radius: 20px;
+}
+.todo-heading {
+  color: #ff8542;
+  font-size: 28px;
+  font-family: 'roboto';
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}

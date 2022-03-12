@@ -1,0 +1,33 @@
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.description {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'roboto';
+  margin-right: 20px;
+  margin-left: 0px;
+  flex-grow: 1px;
+  flex-wrap: wrap;
+}
+
+.delete-button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: 'roboto';
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #ff0b37;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  align-self: flex-end;
+}
